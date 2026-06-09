@@ -1,16 +1,62 @@
-# React + Vite
+# Campus Food Stall Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+This project is a campus food stall information website built with React and Vite.  
+The website helps students browse food stalls, view stall details, check menus, prices, locations, opening hours and reviews.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Target Users
 
-## React Compiler
+The target users are students who want to quickly find food options on campus.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Main Features
 
-## Expanding the ESLint configuration
+- View all food stalls
+- View stall details
+- Check menu items and prices
+- Read student reviews
+- Search food stalls
+- Filter food stalls by category
+- Responsive layout for different screen sizes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## User Stories for Iteration 1
+
+### User Story 1
+
+As a student, I want to view all food stalls so that I can know what food options are available on campus.
+
+Status: Done
+
+### User Story 2
+
+As a student, I want to view stall details so that I can check menu items and reviews before choosing a stall.
+
+Status: Done
+
+## Technologies Used
+
+- React
+- Vite
+- JavaScript
+- CSS
+- GitHub
+- Vercel
+
+| Name          | Role                              |
+|---------------|-----------------------------------|
+| Baojiatao     | Project Lead / Backend Developer  |
+| Linyan        | Frontend Developer / UI/UX Designer |
+
+
+Project Status: In Active Development  
+**Start Date**: May 2026  
+**Last Updated**: 19 May 2026
+
+
+## How to Run the Project
+
+```bash
+npm install
+npm run dev
+
+c
