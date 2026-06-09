@@ -149,3 +149,41 @@ The basic website has been completed and uploaded to GitHub. The current version
 
 Start Date: May 2026  
 Last Updated: June 2026
+
+## Practical Week 3 – Iteration 1
+
+### Objective
+
+The objective of Practical Week 3 was to review the planned user stories for Iteration 1 and implement at least two user stories during the practical class.
+
+### Iteration 1 User Stories
+
+| User Story | Priority | Effort | Status |
+|---|---:|---:|---|
+| Browse Food Stalls | 10 | 2 days | Done |
+| View Stall Details | 10 | 3 days | Done |
+| View Ratings and Reviews | 20 | 3 days | In Progress |
+
+### GitHub Project Board
+
+The team created a GitHub Project Board to monitor the progress of Iteration 1. The board includes To do, In progress, and Done columns.
+
+Current board status:
+
+- Done: Browse Food Stalls
+- Done: View Stall Details
+- In Progress: View Ratings and Reviews
+
+### Work Completed
+
+During Iteration 1, the team completed two user stories: Browse Food Stalls and View Stall Details. These features allow students to browse available campus food stalls and view basic stall information such as menu items, prices, opening hours, and location.
+
+### Burn Down Graph
+
+![Iteration 1 Burn Down Graph](upgraded_iteration_1_burn_down_graph.png)
+
+The burn down graph tracks the remaining work for Iteration 1. The total estimated effort was 8 days. The ideal line shows the expected progress if the work decreases evenly each day. The actual line shows that the team completed two user stories, Browse Food Stalls and View Stall Details, which represent 5 days of work. The remaining 3 days belong to View Ratings and Reviews, which is still in progress.
+
+### Reflection
+
+This practical helped the team understand how to manage user stories using GitHub Issues, labels, and a Project Board. By moving tasks from To do to In progress and Done, the team could clearly track development progress. Although not all user stories were completed, the team successfully implemented at least two core user stories for Iteration 1.
