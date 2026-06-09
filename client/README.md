@@ -47,11 +47,9 @@ Status: Done
 | Baojiatao     | Project Lead / Backend Developer  |
 | Linyan        | Frontend Developer / UI/UX Designer |
 
-
 Project Status: In Active Development  
 **Start Date**: May 2026  
 **Last Updated**: 19 May 2026
-
 
 ## How to Run the Project
 
