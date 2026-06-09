@@ -57,4 +57,3 @@ Project Status: In Active Development
 npm install
 npm run dev
 
-c
