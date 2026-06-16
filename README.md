@@ -187,3 +187,7 @@ The burn down graph tracks the remaining work for Iteration 1. The total estimat
 ### Reflection
 
 This practical helped the team understand how to manage user stories using GitHub Issues, labels, and a Project Board. By moving tasks from To do to In progress and Done, the team could clearly track development progress. Although not all user stories were completed, the team successfully implemented at least two core user stories for Iteration 1.
+
+## Practical 4: Iteration 1 - Execution and Tracking
+
+In Practical 4, the project focuses on task breakdown, task estimation, GitHub issue tracking, class diagram, sequence diagram, daily commits and pull request review.
