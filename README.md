@@ -180,7 +180,7 @@ During Iteration 1, the team completed two user stories: Browse Food Stalls and 
 
 ### Burn Down Graph
 
-![Iteration 1 Burn Down Graph](upgraded_iteration_1_burn_down_graph.png)
+![Iteration 1 Burn Down Graph](burndown.png)
 
 The burn down graph tracks the remaining work for Iteration 1. The total estimated effort was 8 days. The ideal line shows the expected progress if the work decreases evenly each day. The actual line shows that the team completed two user stories, Browse Food Stalls and View Stall Details, which represent 5 days of work. The remaining 3 days belong to View Ratings and Reviews, which is still in progress.
 
