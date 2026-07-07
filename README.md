@@ -243,7 +243,7 @@ Although the overall structure follows DRY well, some UI styling can still be fu
 
 The burn down graph below summarises the final progress of Iteration 1. The team completed most of the planned work, while the remaining tasks will continue into Iteration 2.
 
-![Iteration 1 Burn Down Graph](Iteration%201%20(Final).png)
+![Iteration 1 Burn Down Graph](Iteration%201%20%EF%BC%88Final%EF%BC%89.png)
 
 ---
 
@@ -336,3 +336,7 @@ Practical Week 6 provided an opportunity to review the team's overall progress a
 Using GitHub Issues and the Project Board made it easier to monitor task progress, organise development work and improve collaboration between team members. The team also realised that planning based on actual progress is more effective than relying only on initial estimates.
 
 For Iteration 2, the team will focus on completing the Ratings & Reviews feature, improving the website interface, fixing remaining issues, and performing additional testing to improve the overall quality and user experience of CampusBite before moving on to future enhancements.
+
+## Iteration 2 Plan
+
+During Iteration 2, the team will prioritise completing the Ratings & Reviews feature, improving the website interface, fixing remaining issues, and carrying out additional testing. Once these tasks are completed, the team plans to continue developing advanced features such as personalised recommendations and user favourites.
