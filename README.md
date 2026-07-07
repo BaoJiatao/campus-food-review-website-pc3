@@ -193,3 +193,5 @@ This practical helped the team understand how to manage user stories using GitHu
 
 In Practical 4, the project focuses on task breakdown, task estimation, GitHub issue tracking, class diagram, sequence diagram, daily commits and pull request review.
 This branch is used to practise pull request creation and code review.
+
+![Iteration 1 Burn Down Graph](Iteration%201%20%EF%BC%88Final%EF%BC%89.png)
