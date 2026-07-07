@@ -242,8 +242,7 @@ Although the overall structure follows DRY well, some UI styling can still be fu
 
 The burn down graph below summarises the final progress of Iteration 1. The team completed most of the planned work, while the remaining tasks will continue into Iteration 2.
 
-![Iteration 1 Burn Down Graph](Iteration%201%20%EF%BC%88Final%EF%BC%89.png)
-
+![Iteration 1 Burn Down Graph](Iteration%201%EF%BC%88Final%EF%BC%89.png)
 ---
 
 ## Iteration 2 Backlog
