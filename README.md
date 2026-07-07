@@ -182,6 +182,7 @@ During Iteration 1, the team completed two user stories: Browse Food Stalls and 
 ### Burn Down Graph
 
 ![Iteration 1 Burn Down Graph](burndown.png)
+![Iteration 1 Burn Down Graph](Iteration%201%20%EF%BC%88Final%EF%BC%89.png)
 
 The burn down graph tracks the remaining work for Iteration 1. The total estimated effort was 8 days. The ideal line shows the expected progress if the work decreases evenly each day. The actual line shows that the team completed two user stories, Browse Food Stalls and View Stall Details, which represent 5 days of work. The remaining 3 days belong to View Ratings and Reviews, which is still in progress.
 
@@ -194,4 +195,144 @@ This practical helped the team understand how to manage user stories using GitHu
 In Practical 4, the project focuses on task breakdown, task estimation, GitHub issue tracking, class diagram, sequence diagram, daily commits and pull request review.
 This branch is used to practise pull request creation and code review.
 
-![Iteration 1 Burn Down Graph](Iteration%201%20%EF%BC%88Final%EF%BC%89.png)
+# Practical 6: Iteration 2 - Review and Planning
+
+## Objective
+
+The objective of Practical Week 6 was to review the progress achieved during Iteration 1 and prepare the development plan for Iteration 2. The team analysed the completed work, calculated the actual velocity, reviewed the software design, and updated the backlog based on the remaining user stories. This helped the team better organise the next stage of development and continue improving the CampusBite website.
+
+---
+
+## Actual Velocity
+
+At the beginning of Iteration 1, the team estimated a total effort of **8 working days**. During the iteration, the team successfully completed the core features of the project, including browsing food stalls and viewing stall details. Additional improvements, such as the search function, category filtering and stall detail modal, were also implemented.
+
+Overall, the team completed approximately **5 days of planned work** during Iteration 1. The remaining work mainly involves the Ratings & Reviews feature together with several interface improvements, which have been moved into Iteration 2. The calculated velocity provides a more realistic estimate for planning the next iteration and helps the team avoid overcommitting.
+
+---
+
+## SRP and DRY Review
+
+The team reviewed the project structure to evaluate whether the implementation follows the **Single Responsibility Principle (SRP)** and the **Don't Repeat Yourself (DRY)** principle.
+
+### Single Responsibility Principle (SRP)
+
+Most components perform a single responsibility and have a clear purpose.
+
+- **StallCard** is responsible for displaying summary information for each food stall.
+- **SearchBar** handles searching food stalls by keyword.
+- **CategoryFilter** is responsible for filtering stalls based on food categories.
+- **StallDetailModal** displays detailed information such as menus, prices and opening hours.
+
+Keeping these responsibilities separate makes the project easier to maintain and extend in future iterations.
+
+### Don't Repeat Yourself (DRY)
+
+The project also follows the DRY principle by reducing duplicated code.
+
+- Reusable stall card components are used throughout the homepage.
+- Search and filtering logic are implemented as reusable functions.
+- Shared CSS styles are applied across different pages instead of repeating the same styling code.
+- Common layouts are reused to improve consistency and simplify future maintenance.
+
+Although the overall structure follows DRY well, some UI styling can still be further organised during Iteration 2.
+
+---
+
+## Burn Down Graph
+
+The burn down graph below summarises the final progress of Iteration 1. The team completed most of the planned work, while the remaining tasks will continue into Iteration 2.
+
+![Iteration 1 Burn Down Graph](Iteration%201%20(Final).png)
+
+---
+
+## Iteration 2 Backlog
+
+Based on the remaining work from Iteration 1 and the team's actual velocity, the following backlog has been prepared for Iteration 2.
+
+| User Story | Priority | Status |
+|------------|----------|--------|
+| View Ratings and Reviews | High | In Progress |
+| Improve CSS Layout | Medium | In Progress |
+| Improve Modal Layout | Medium | To Do |
+| Create Pull Request for Review | Medium | To Do |
+| Review and Merge Pull Request | Medium | To Do |
+| Website Testing and Bug Fixes | High | To Do |
+
+The team decided to focus on completing the unfinished core functionality before introducing additional features. This approach reduces development risk and ensures that the main user requirements are fully implemented before expanding the system.
+
+---
+
+## GitHub Project Board
+
+The GitHub Project Board was updated to reflect the current development progress.
+
+### To Do
+
+- Improve Modal Layout
+- Review and Merge Pull Request
+- Final Website Testing
+- Take Testing Screenshots
+- Fix Remaining Bugs
+
+### In Progress
+
+- View Ratings and Reviews
+- Improve CSS Layout
+- Create Pull Request for Review
+
+### Done
+
+- Browse Food Stalls
+- View Stall Details
+- Search Function
+- Category Filter
+- Stall Detail Modal
+- Homepage Responsive Layout
+- Class Diagram
+- Sequence Diagram
+
+The updated board helps the team clearly monitor development progress and allocate tasks among team members throughout Iteration 2.
+
+---
+
+## Completed vs Unfinished User Stories
+
+### Completed User Stories
+
+- Browse Food Stalls
+- View Stall Details
+- Search Food Stalls
+- Filter Food Options
+- Stall Detail Modal
+- Homepage Responsive Layout
+- Class Diagram
+- Sequence Diagram
+
+### Unfinished User Stories
+
+- View Ratings and Reviews
+- Improve CSS Layout
+- Improve Modal Layout
+- Pull Request Review
+- Final Website Testing
+- Bug Fixes
+
+The unfinished user stories have been prioritised for completion during Iteration 2 before introducing any new functionality.
+
+---
+
+## GitHub Pages Update
+
+The latest completed features were pushed to GitHub and deployed to the project website. Updating GitHub Pages after each completed user story allows the team to verify the latest version online and receive feedback earlier in the development process. This also helps ensure that the deployed version stays consistent with the GitHub repository.
+
+---
+
+## Reflection
+
+Practical Week 6 provided an opportunity to review the team's overall progress and evaluate the outcome of Iteration 1 before starting the next iteration. By calculating the team's actual velocity, reviewing the software design, and updating the backlog, the team gained a clearer understanding of the remaining work and development priorities.
+
+Using GitHub Issues and the Project Board made it easier to monitor task progress, organise development work and improve collaboration between team members. The team also realised that planning based on actual progress is more effective than relying only on initial estimates.
+
+For Iteration 2, the team will focus on completing the Ratings & Reviews feature, improving the website interface, fixing remaining issues, and performing additional testing to improve the overall quality and user experience of CampusBite before moving on to future enhancements.
