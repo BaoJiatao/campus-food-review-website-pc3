@@ -329,11 +329,13 @@ The latest completed features were pushed to GitHub and deployed to the project 
 
 ## Reflection
 
-Practical Week 6 provided an opportunity to review the team's overall progress and evaluate the outcome of Iteration 1 before starting the next iteration. By calculating the team's actual velocity, reviewing the software design, and updating the backlog, the team gained a clearer understanding of the remaining work and development priorities.
+Practical Week 6 allowed the team to review the overall progress of Iteration 1 before continuing development.
 
-Using GitHub Issues and the Project Board made it easier to monitor task progress, organise development work and improve collaboration between team members. The team also realised that planning based on actual progress is more effective than relying only on initial estimates.
+By analysing the team's actual velocity and reviewing the remaining backlog, we gained a clearer understanding of what had been completed and what still required attention. GitHub Issues and the Project Board continued to be useful for tracking progress, assigning tasks and improving collaboration.
 
-For Iteration 2, the team will focus on completing the Ratings & Reviews feature, improving the website interface, fixing remaining issues, and performing additional testing to improve the overall quality and user experience of CampusBite before moving on to future enhancements.
+The review also showed that most core features have already been implemented successfully. The remaining work mainly focuses on improving the Ratings & Reviews feature, refining the user interface, conducting testing and preparing the project for completion.
+
+Overall, the team now has a more realistic development plan for Iteration 2 based on actual project progress rather than initial estimates.
 
 ## Iteration 2 Plan
 
