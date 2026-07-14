@@ -618,9 +618,45 @@ For Practical 7, the team selected five core user stories that represent the mai
 
 ### User Story 4 – Filter Food Options
 
-**As a student, I want to filter food stalls by category so that I can narrow down my choices more efficiently.**
+**User Story**
 
-This feature enables users to display only stalls that belong to the selected food category.
+> As a student, I want to filter food stalls by category so that I can narrow down my choices more efficiently.
+
+---
+
+#### Test Case TC-010
+
+| Item | Description |
+|------|-------------|
+| **Test ID** | TC-010 |
+| **Test Objective** | Verify that users can filter food stalls by selecting a food category. |
+| **Precondition** | The CampusBite homepage has loaded successfully. |
+| **Test Steps** | 1. Open the homepage.<br>2. Select a food category from the category filter. |
+| **Expected Result** | Only food stalls belonging to the selected category are displayed. |
+
+---
+
+#### Test Case TC-011
+
+| Item | Description |
+|------|-------------|
+| **Test ID** | TC-011 |
+| **Test Objective** | Verify that changing the selected category updates the displayed food stalls correctly. |
+| **Precondition** | A food category has already been selected. |
+| **Test Steps** | 1. Select one food category.<br>2. Select a different food category. |
+| **Expected Result** | The displayed food stalls are updated immediately to match the newly selected category. |
+
+---
+
+#### Test Case TC-012
+
+| Item | Description |
+|------|-------------|
+| **Test ID** | TC-012 |
+| **Test Objective** | Verify that users can clear the category filter and display all food stalls again. |
+| **Precondition** | A category filter is currently applied. |
+| **Test Steps** | 1. Click the "All" category or reset the filter.<br>2. Observe the homepage. |
+| **Expected Result** | All available food stalls are displayed again without any category restrictions. |
 
 ---
 
