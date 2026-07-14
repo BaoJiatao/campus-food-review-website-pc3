@@ -530,9 +530,45 @@ For Practical 7, the team selected five core user stories that represent the mai
 
 ### User Story 2 – View Stall Details
 
-**As a student, I want to view detailed information about a food stall, including menu items, prices, opening hours and location, so that I can make informed dining decisions.**
+**User Story**
 
-This feature displays detailed information when a user selects a food stall.
+> As a student, I want to view detailed information about a food stall, including menu items, prices, opening hours and location, so that I can make informed dining decisions.
+
+---
+
+#### Test Case TC-004
+
+| Item | Description |
+|------|-------------|
+| **Test ID** | TC-004 |
+| **Test Objective** | Verify that the stall detail modal opens successfully when a food stall is selected. |
+| **Precondition** | The CampusBite homepage has loaded successfully. |
+| **Test Steps** | 1. Open the homepage.<br>2. Click on any food stall card. |
+| **Expected Result** | The stall detail modal opens and displays the selected food stall information. |
+
+---
+
+#### Test Case TC-005
+
+| Item | Description |
+|------|-------------|
+| **Test ID** | TC-005 |
+| **Test Objective** | Verify that the correct stall information is displayed in the detail modal. |
+| **Precondition** | The stall detail modal is open. |
+| **Test Steps** | 1. Select any food stall.<br>2. Check the displayed information inside the modal. |
+| **Expected Result** | The modal correctly displays the stall name, menu items, prices, opening hours and location. |
+
+---
+
+#### Test Case TC-006
+
+| Item | Description |
+|------|-------------|
+| **Test ID** | TC-006 |
+| **Test Objective** | Verify that users can close the stall detail modal successfully. |
+| **Precondition** | The stall detail modal is open. |
+| **Test Steps** | 1. Open any stall detail modal.<br>2. Click the close button or outside the modal. |
+| **Expected Result** | The modal closes successfully and the homepage remains displayed without any errors. |
 
 ---
 
