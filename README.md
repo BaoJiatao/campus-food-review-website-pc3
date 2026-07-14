@@ -574,9 +574,45 @@ For Practical 7, the team selected five core user stories that represent the mai
 
 ### User Story 3 – Search Food Stalls
 
-**As a student, I want to search food stalls by name so that I can quickly find the food I want.**
+**User Story**
 
-This feature allows users to search for food stalls using keywords entered into the search bar.
+> As a student, I want to search food stalls by name so that I can quickly find the food I want.
+
+---
+
+#### Test Case TC-007
+
+| Item | Description |
+|------|-------------|
+| **Test ID** | TC-007 |
+| **Test Objective** | Verify that users can search for a food stall using a valid keyword. |
+| **Precondition** | The CampusBite homepage has loaded successfully and food stall data is available. |
+| **Test Steps** | 1. Open the homepage.<br>2. Enter a valid food stall name or keyword into the search bar.<br>3. Press Enter or wait for the search results. |
+| **Expected Result** | Only food stalls that match the search keyword are displayed. |
+
+---
+
+#### Test Case TC-008
+
+| Item | Description |
+|------|-------------|
+| **Test ID** | TC-008 |
+| **Test Objective** | Verify that the system handles search keywords with no matching results. |
+| **Precondition** | The homepage has loaded successfully. |
+| **Test Steps** | 1. Enter a keyword that does not match any food stall.<br>2. Execute the search. |
+| **Expected Result** | No food stalls are displayed and a suitable message such as "No results found" is shown. |
+
+---
+
+#### Test Case TC-009
+
+| Item | Description |
+|------|-------------|
+| **Test ID** | TC-009 |
+| **Test Objective** | Verify that the search function works regardless of letter case. |
+| **Precondition** | Food stall data has been loaded successfully. |
+| **Test Steps** | 1. Enter a valid food stall name using uppercase or lowercase letters.<br>2. Execute the search. |
+| **Expected Result** | The correct food stall is displayed regardless of whether uppercase or lowercase letters are used. |
 
 ---
 
