@@ -486,9 +486,45 @@ For Practical 7, the team selected five core user stories that represent the mai
 
 ### User Story 1 – Browse Food Stalls
 
-**As a student, I want to browse all campus food stalls so that I can easily discover available food options.**
+**User Story**
 
-This feature allows users to view all available food stalls on the homepage without searching manually.
+> As a student, I want to browse all campus food stalls so that I can easily discover available food options.
+
+---
+
+#### Test Case TC-001
+
+| Item | Description |
+|------|-------------|
+| **Test ID** | TC-001 |
+| **Test Objective** | Verify that all food stalls are displayed on the homepage. |
+| **Precondition** | The CampusBite website has been launched successfully. |
+| **Test Steps** | 1. Open the CampusBite homepage.<br>2. Wait for the page to finish loading. |
+| **Expected Result** | All available food stalls are displayed as stall cards on the homepage. |
+
+---
+
+#### Test Case TC-002
+
+| Item | Description |
+|------|-------------|
+| **Test ID** | TC-002 |
+| **Test Objective** | Verify that each stall card displays the correct information. |
+| **Precondition** | The homepage has loaded successfully. |
+| **Test Steps** | 1. View any food stall card on the homepage.<br>2. Check the displayed information. |
+| **Expected Result** | Each stall card displays the stall name, image, food category and a short description correctly. |
+
+---
+
+#### Test Case TC-003
+
+| Item | Description |
+|------|-------------|
+| **Test ID** | TC-003 |
+| **Test Objective** | Verify that users can browse all food stalls by scrolling through the homepage. |
+| **Precondition** | The homepage contains multiple food stalls. |
+| **Test Steps** | 1. Open the homepage.<br>2. Scroll from the top to the bottom of the page. |
+| **Expected Result** | All food stalls can be viewed successfully without missing content or layout errors. |
 
 ---
 
