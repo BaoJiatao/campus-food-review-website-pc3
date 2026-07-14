@@ -340,3 +340,142 @@ Overall, the team now has a more realistic development plan for Iteration 2 base
 ## Iteration 2 Plan
 
 During Iteration 2, the team will prioritise completing the Ratings & Reviews feature, improving the website interface, fixing remaining issues, and carrying out additional testing. Once these tasks are completed, the team plans to continue developing advanced features such as personalised recommendations and user favourites.
+
+# Practical 7: Iteration 2 - Test-Driven Development
+
+## Testing Plan
+
+### Objective
+
+The objective of Practical 7 is to apply Test-Driven Development (TDD) during Iteration 2. After completing most of the core features in Iteration 1, the team will now focus on verifying that the implemented functions work correctly and remain stable as new features are added.
+
+Testing also helps the team detect bugs earlier, improve software quality and reduce the possibility of breaking existing features during future development.
+
+---
+
+### Current Project Status
+
+At the beginning of Practical 7, the CampusBite project has already completed most of the core user stories, including:
+
+- Browse Food Stalls
+- View Stall Details
+- Search Food Stalls
+- Category Filter
+- Stall Detail Modal
+- Responsive Homepage Layout
+
+The Ratings & Reviews feature is currently under development and will continue during Iteration 2. Therefore, the testing activities will mainly focus on both completed features and the newly developed functionality.
+
+---
+
+### Testing Strategy
+
+The team decided to combine manual testing and automated testing throughout Iteration 2.
+
+Manual testing is first used during development to quickly verify new features and user interactions. After a feature works correctly, automated tests will be written to ensure the same functionality continues working after future code changes.
+
+This follows the Test-Driven Development (TDD) approach by defining expected behaviour through test cases before verifying the implementation.
+
+---
+
+### Testing Scope
+
+Based on the current project progress, the following user stories have been selected for testing:
+
+1. Browse Food Stalls
+2. View Stall Details
+3. Search Food Stalls
+4. Filter Food Options
+5. View Ratings and Reviews
+
+These user stories represent the main functionality currently available in the CampusBite website and cover the most common user interactions.
+
+---
+
+### Types of Testing
+
+#### Functional Testing
+
+Functional testing checks whether each feature behaves according to the user requirements.
+
+Examples include:
+
+- Displaying all food stalls correctly
+- Opening stall details successfully
+- Searching stalls using keywords
+- Filtering stalls by category
+- Viewing ratings and reviews correctly
+
+---
+
+#### User Interface Testing
+
+UI testing verifies that all visible components display correctly and remain usable.
+
+The team will check:
+
+- Stall cards
+- Search bar
+- Category buttons
+- Stall detail modal
+- Ratings and review section
+- Responsive layout
+
+---
+
+#### Input Validation Testing
+
+Input validation testing ensures the system handles invalid or unexpected user input correctly.
+
+Examples include:
+
+- Empty search keywords
+- Invalid search terms
+- Empty review submission
+- Invalid rating values
+
+---
+
+#### Regression Testing
+
+Regression testing is performed whenever new code is added to ensure existing features continue working correctly.
+
+Since Iteration 2 mainly extends the existing website, regression testing is important after implementing the Ratings & Reviews feature and interface improvements.
+
+---
+
+### Automated Testing Plan
+
+The team plans to implement automated tests for the selected user stories.
+
+Automated tests will verify:
+
+- Stall cards render correctly.
+- Search returns the correct results.
+- Category filtering displays matching stalls.
+- Stall detail modal opens correctly.
+- Ratings and reviews display expected information.
+
+At least fifteen automated tests will be implemented during this practical to improve software reliability and reduce manual testing effort.
+
+---
+
+### Testing Environment
+
+The project is developed using React and Vite.
+
+Testing will be performed in the local development environment before code is committed to GitHub. Automated tests will be executed before pull requests are merged to ensure new changes do not introduce unexpected errors.
+
+The website will also be tested manually using desktop and mobile browser sizes to confirm that the interface remains responsive and user-friendly.
+
+---
+
+### Expected Outcomes
+
+After Practical 7, the project should achieve the following:
+
+- Main user stories are verified through test cases.
+- At least fifteen automated tests are implemented.
+- Existing features remain stable after new code changes.
+- Bugs are detected earlier during development.
+- The overall quality and maintainability of the CampusBite website are improved.
