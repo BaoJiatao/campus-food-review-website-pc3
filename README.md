@@ -479,3 +479,45 @@ After Practical 7, the project should achieve the following:
 - Existing features remain stable after new code changes.
 - Bugs are detected earlier during development.
 - The overall quality and maintainability of the CampusBite website are improved.
+
+## Selected User Stories
+
+For Practical 7, the team selected five core user stories that represent the main functionality of the current CampusBite system. These user stories have either been completed during Iteration 1 or are currently being developed in Iteration 2. They will be used to design manual test cases and automated tests.
+
+### User Story 1 – Browse Food Stalls
+
+**As a student, I want to browse all campus food stalls so that I can easily discover available food options.**
+
+This feature allows users to view all available food stalls on the homepage without searching manually.
+
+---
+
+### User Story 2 – View Stall Details
+
+**As a student, I want to view detailed information about a food stall, including menu items, prices, opening hours and location, so that I can make informed dining decisions.**
+
+This feature displays detailed information when a user selects a food stall.
+
+---
+
+### User Story 3 – Search Food Stalls
+
+**As a student, I want to search food stalls by name so that I can quickly find the food I want.**
+
+This feature allows users to search for food stalls using keywords entered into the search bar.
+
+---
+
+### User Story 4 – Filter Food Options
+
+**As a student, I want to filter food stalls by category so that I can narrow down my choices more efficiently.**
+
+This feature enables users to display only stalls that belong to the selected food category.
+
+---
+
+### User Story 5 – View Ratings and Reviews
+
+**As a student, I want to view ratings and reviews for each food stall so that I can decide where to eat based on other students' experiences.**
+
+This feature allows users to view ratings and reviews for each food stall. It is currently being completed during Iteration 2 and will be included in the testing process.
