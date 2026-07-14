@@ -662,6 +662,42 @@ For Practical 7, the team selected five core user stories that represent the mai
 
 ### User Story 5 – View Ratings and Reviews
 
-**As a student, I want to view ratings and reviews for each food stall so that I can decide where to eat based on other students' experiences.**
+**User Story**
 
-This feature allows users to view ratings and reviews for each food stall. It is currently being completed during Iteration 2 and will be included in the testing process.
+> As a student, I want to view ratings and reviews for each food stall so that I can decide where to eat based on other students' experiences.
+
+---
+
+#### Test Case TC-013
+
+| Item | Description |
+|------|-------------|
+| **Test ID** | TC-013 |
+| **Test Objective** | Verify that the average rating is displayed for the selected food stall. |
+| **Precondition** | The CampusBite homepage has loaded successfully and rating data is available. |
+| **Test Steps** | 1. Open the homepage.<br>2. Select a food stall.<br>3. View the rating section in the stall details. |
+| **Expected Result** | The average rating for the selected food stall is displayed correctly. |
+
+---
+
+#### Test Case TC-014
+
+| Item | Description |
+|------|-------------|
+| **Test ID** | TC-014 |
+| **Test Objective** | Verify that recent reviews are displayed for the correct food stall. |
+| **Precondition** | The selected food stall contains review data. |
+| **Test Steps** | 1. Open the details of a food stall.<br>2. Scroll to the reviews section.<br>3. Check the displayed reviews. |
+| **Expected Result** | The recent reviews associated with the selected food stall are displayed correctly. |
+
+---
+
+#### Test Case TC-015
+
+| Item | Description |
+|------|-------------|
+| **Test ID** | TC-015 |
+| **Test Objective** | Verify that the system handles a food stall with no available reviews. |
+| **Precondition** | A food stall with no review data is available. |
+| **Test Steps** | 1. Open the details of a food stall with no reviews.<br>2. View the ratings and reviews section. |
+| **Expected Result** | The page remains stable and displays a clear message such as "No reviews yet" instead of showing incorrect or empty content. |
