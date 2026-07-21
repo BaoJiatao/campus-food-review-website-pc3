@@ -734,7 +734,7 @@ Only minor improvements, optimisation tasks, documentation updates, and final ve
 
 ## Burn Down Graph
 
-![Iteration 2 Burn Down Graph](./Iteration%202%20(Final).png)
+![Iteration 2 Burn Down Graph](Iteration 2.png)
 The burn down graph shows that the remaining workload decreased steadily throughout Iteration 2. Most development tasks were completed before the end of the sprint, demonstrating consistent progress and effective sprint planning.
 
 ---
