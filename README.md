@@ -805,3 +805,16 @@ Practical 8 marks the final development stage of the project. Compared with prev
 Applying Test-Driven Development encouraged the team to think about testing earlier in the development process, resulting in more reliable and maintainable code. Continuous use of GitHub Issues, Project Boards, Pull Requests, and automated testing also helped the team manage project progress effectively.
 
 Overall, Iteration 3 strengthened the stability and quality of the CampusBite platform and prepared the project for final delivery.
+This branch is used to practise pull request creation and code review.
+
+## Class Diagram
+
+The class diagram below shows the main components and data structure of the CampusBite food stall website.
+
+![Class Diagram](class-diagram.png)
+
+## Sequence Diagram
+
+The sequence diagram below shows how a student searches for a stall and opens the stall detail modal.
+
+![Sequence Diagram](sequence-diagram.png)
