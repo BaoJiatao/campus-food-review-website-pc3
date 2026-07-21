@@ -701,3 +701,107 @@ For Practical 7, the team selected five core user stories that represent the mai
 | **Precondition** | A food stall with no review data is available. |
 | **Test Steps** | 1. Open the details of a food stall with no reviews.<br>2. View the ratings and reviews section. |
 | **Expected Result** | The page remains stable and displays a clear message such as "No reviews yet" instead of showing incorrect or empty content. |
+
+# Practical 8: Iteration 3
+
+## Objective
+
+The objective of Practical 8 is to continue Iteration 3 by applying Test-Driven Development (TDD) while refining the CampusBite website. Building on the completed work from Iteration 2, the team focuses on improving software quality, fixing remaining issues, performing final testing, and preparing the project for completion.
+
+---
+
+## Iteration 2 Reflection
+
+Iteration 2 was successfully completed with the implementation of the major planned user stories. During this iteration, the team finished the search function, category filter, ratings and reviews, responsive layout improvements, and overall interface refinement.
+
+Compared with Iteration 1, the project became more complete and user-friendly. The GitHub Project Board was continuously updated to monitor development progress, while automated testing helped identify and prevent software defects during implementation.
+
+The completed work from Iteration 2 provides a stable foundation for the final iteration.
+
+---
+
+## Actual Velocity
+
+The team completed nearly all planned user stories during Iteration 2.
+
+**Planned Velocity:** 100%
+
+**Actual Velocity:** Approximately 95–100%
+
+Only minor improvements, optimisation tasks, documentation updates, and final verification remain for Iteration 3.
+
+---
+
+## Burn Down Graph
+
+*(Insert the Iteration 2 Burn Down Graph here.)*
+
+The burn down graph shows that the remaining workload decreased steadily throughout Iteration 2. Most development tasks were completed before the end of the sprint, demonstrating consistent progress and effective sprint planning.
+
+---
+
+## Iteration 3 Backlog
+
+The remaining backlog for Iteration 3 focuses mainly on software quality rather than new functionality.
+
+### Remaining Tasks
+
+- Improve UI consistency
+- Fix minor layout issues
+- Refactor existing code
+- Perform final regression testing
+- Verify automated test results
+- Improve project documentation
+- Prepare final deployment
+- Complete final project review
+
+---
+
+## GitHub Project Board
+
+The GitHub Project Board has been updated to reflect the current progress of Iteration 3.
+
+### Completed Features
+
+- Browse Food Stalls
+- View Stall Details
+- Search Food Stalls
+- Category Filter
+- Ratings & Reviews
+- Responsive Layout
+
+### Current Focus
+
+- Final testing
+- Bug fixing
+- Code refactoring
+- Documentation updates
+
+---
+
+## Mock Object Research
+
+To improve testing reliability, the team researched the use of Mock Objects in software testing.
+
+Mock Objects simulate external dependencies such as databases or APIs, allowing components to be tested independently without relying on real services. This helps produce repeatable and stable automated tests while reducing the influence of external factors.
+
+Although the current project mainly uses static data, mock objects can be introduced in future versions when integrating backend APIs or databases.
+
+Example applications include:
+
+- Simulating food stall data
+- Simulating user reviews
+- Simulating API responses
+- Simulating database queries
+
+Using Mock Objects improves test isolation, increases test reliability, and supports the Test-Driven Development process.
+
+---
+
+## Reflection
+
+Practical 8 marks the final development stage of the project. Compared with previous iterations, the focus shifted from implementing new features to improving software quality, testing, and code maintainability.
+
+Applying Test-Driven Development encouraged the team to think about testing earlier in the development process, resulting in more reliable and maintainable code. Continuous use of GitHub Issues, Project Boards, Pull Requests, and automated testing also helped the team manage project progress effectively.
+
+Overall, Iteration 3 strengthened the stability and quality of the CampusBite platform and prepared the project for final delivery.
