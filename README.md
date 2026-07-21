@@ -15,7 +15,7 @@ GitHub Repository: https://github.com/BaoJiatao/campus-food-review-website-pc3
 
 ## Deployed Website Link
 
-Website Link: Paste your Vercel link here
+Website Link: https://campus-food-review-website-pc3.vercel.app
 
 ## Team Members
 
